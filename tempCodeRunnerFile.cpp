@@ -1,1 +1,0 @@
- // checkKaro(colors, i, k, flag);
