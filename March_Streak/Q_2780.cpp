@@ -15,14 +15,14 @@ public:
         {
             mp2[num]++;
         }
-
+        
         for (int i = 0; i < n; i++)
         {
             mp1[nums[i]]++;
             mp2[nums[i]]--;
             int n1 = i + 1;
             int n2 = n - i - 1;
-            
+
             if (mp1[nums[i]] > n1 / 2 && mp2[nums[i]] > n2 / 2)
             {
                 return i;
