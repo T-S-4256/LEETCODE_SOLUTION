@@ -10,7 +10,6 @@ public:
         int count = 0;
         for (int i = 1; i < nums.size() - 1; i++)
         {
-            cout << nums[i] << " : " << (2 * (nums[i - 1] + nums[i + 1])) << endl;
             if (nums[i] == (2 * (nums[i - 1] + nums[i + 1])))
             {
                 count++;
